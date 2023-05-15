@@ -9,8 +9,8 @@
 
   /* ### Primary */
 
-  --Red: hsl(0, 100%, 74%) ;
-  --Green: hsl(154, 59%, 51%);
+  --Red: rgb(255, 122, 122);
+  --Green: rgb(56, 204, 140);
 
   /* ### Accent */
 
@@ -19,7 +19,7 @@
   /* ### Neutral */
 
   --Dark-Blue: hsl(249, 10%, 26%) ;
-  --Grayish-Blue: hsl(246, 25%, 77%);
+  --Grayish-Blue: rgb(185, 182, 211);  
 }
 
 html,
@@ -31,4 +31,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.my-shadow-black-op {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px;
+}
+
+.my-shadow-green-op {
+  box-shadow: rgba(0, 128, 72, 0.6) 0px 4px;
 }
